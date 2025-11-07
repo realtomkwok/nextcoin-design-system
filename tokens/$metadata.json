@@ -1,0 +1,9 @@
+{
+  "tokenSetOrder": [
+    "core",
+    "primitives",
+    "ui/global",
+    "ui/mode/light",
+    "ui/mode/dark"
+  ]
+}
