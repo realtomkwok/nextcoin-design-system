@@ -1,0 +1,122 @@
+{
+  "brand": {
+    "primary": {
+      "$type": "color",
+      "$value": "{color-base-800}",
+      "$description": "Primary brand color"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{color-base-200}",
+      "$description": "Secondary brand color"
+    },
+    "accent-primary": {
+      "$type": "color",
+      "$value": "{color-accent-yellow-300}",
+      "$description": "Primary accent color - Yellow"
+    },
+    "accent-secondary": {
+      "$type": "color",
+      "$value": "{color-accent-cyan-300}",
+      "$description": "Secondary accent color - Cyan"
+    }
+  },
+  "surface": {
+    "page-light": {
+      "$type": "color",
+      "$value": "{color-base-50}",
+      "$description": "Light mode page background"
+    },
+    "page-dark": {
+      "$type": "color",
+      "$value": "{color-base-1000}",
+      "$description": "Dark mode page background"
+    },
+    "card-light": {
+      "$type": "color",
+      "$value": "{color-base-0}",
+      "$description": "Light mode card surface"
+    },
+    "card-dark": {
+      "$type": "color",
+      "$value": "{color-base-900}",
+      "$description": "Dark mode card surface"
+    }
+  },
+  "text": {
+    "primary-light": {
+      "$type": "color",
+      "$value": "{color-base-900}",
+      "$description": "Primary text on light backgrounds"
+    },
+    "primary-dark": {
+      "$type": "color",
+      "$value": "{color-base-50}",
+      "$description": "Primary text on dark backgrounds"
+    },
+    "secondary-light": {
+      "$type": "color",
+      "$value": "{color-base-600}",
+      "$description": "Secondary text on light backgrounds"
+    },
+    "secondary-dark": {
+      "$type": "color",
+      "$value": "{color-base-400}",
+      "$description": "Secondary text on dark backgrounds"
+    },
+    "muted-light": {
+      "$type": "color",
+      "$value": "{color-base-500}",
+      "$description": "Muted text on light backgrounds"
+    },
+    "muted-dark": {
+      "$type": "color",
+      "$value": "{color-base-400}",
+      "$description": "Muted text on dark backgrounds"
+    }
+  },
+  "border": {
+    "default-light": {
+      "$type": "color",
+      "$value": "{color-base-200}",
+      "$description": "Default border on light backgrounds"
+    },
+    "default-dark": {
+      "$type": "color",
+      "$value": "{color-base-800}",
+      "$description": "Default border on dark backgrounds"
+    },
+    "subtle-light": {
+      "$type": "color",
+      "$value": "{color-base-100}",
+      "$description": "Subtle border on light backgrounds"
+    },
+    "subtle-dark": {
+      "$type": "color",
+      "$value": "{color-base-900}",
+      "$description": "Subtle border on dark backgrounds"
+    }
+  },
+  "status": {
+    "error": {
+      "$type": "color",
+      "$value": "{color-functional-error-600}",
+      "$description": "Error state color"
+    },
+    "error-subtle": {
+      "$type": "color",
+      "$value": "{color-functional-error-100}",
+      "$description": "Subtle error background"
+    },
+    "success": {
+      "$type": "color",
+      "$value": "{color-supporting-blue-500}",
+      "$description": "Success state color"
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "{color-accent-yellow-400}",
+      "$description": "Warning state color"
+    }
+  }
+}

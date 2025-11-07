@@ -1,9 +1,20 @@
 {
   "tokenSetOrder": [
-    "core",
-    "primitives",
-    "ui/global",
-    "ui/mode/light",
-    "ui/mode/dark"
+    "foundation/colors/base",
+    "foundation/colors/accent",
+    "foundation/colors/supporting",
+    "foundation/colors/functional",
+    "foundation/typography/font-families",
+    "foundation/typography/font-sizes",
+    "foundation/typography/font-weights",
+    "foundation/typography/line-heights",
+    "foundation/typography/letter-spacing",
+    "foundation/spacing",
+    "foundation/border-radius",
+    "foundation/effects",
+    "core/colors",
+    "core/typography",
+    "semantic/light",
+    "semantic/dark"
   ]
 }

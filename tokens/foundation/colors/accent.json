@@ -1,0 +1,82 @@
+{
+  "color-accent-yellow-50": {
+    "$type": "color",
+    "$value": "#fff1d0"
+  },
+  "color-accent-yellow-100": {
+    "$type": "color",
+    "$value": "#ffe1a0"
+  },
+  "color-accent-yellow-200": {
+    "$type": "color",
+    "$value": "#f9c647"
+  },
+  "color-accent-yellow-300": {
+    "$type": "color",
+    "$value": "#edb400"
+  },
+  "color-accent-yellow-400": {
+    "$type": "color",
+    "$value": "#cc9f2c"
+  },
+  "color-accent-yellow-500": {
+    "$type": "color",
+    "$value": "#bc9536"
+  },
+  "color-accent-yellow-600": {
+    "$type": "color",
+    "$value": "#8b7647"
+  },
+  "color-accent-yellow-700": {
+    "$type": "color",
+    "$value": "#665633"
+  },
+  "color-accent-yellow-800": {
+    "$type": "color",
+    "$value": "#413a28"
+  },
+  "color-accent-yellow-900": {
+    "$type": "color",
+    "$value": "#19160e"
+  },
+  "color-accent-cyan-50": {
+    "$type": "color",
+    "$value": "#d0fcfe"
+  },
+  "color-accent-cyan-100": {
+    "$type": "color",
+    "$value": "#90f5fb"
+  },
+  "color-accent-cyan-200": {
+    "$type": "color",
+    "$value": "#00e0eb"
+  },
+  "color-accent-cyan-300": {
+    "$type": "color",
+    "$value": "#01d2dc"
+  },
+  "color-accent-cyan-400": {
+    "$type": "color",
+    "$value": "#27bdc6"
+  },
+  "color-accent-cyan-500": {
+    "$type": "color",
+    "$value": "#23a8b0"
+  },
+  "color-accent-cyan-600": {
+    "$type": "color",
+    "$value": "#438286"
+  },
+  "color-accent-cyan-700": {
+    "$type": "color",
+    "$value": "#315e61"
+  },
+  "color-accent-cyan-800": {
+    "$type": "color",
+    "$value": "#273f41"
+  },
+  "color-accent-cyan-900": {
+    "$type": "color",
+    "$value": "#0a191a"
+  }
+}

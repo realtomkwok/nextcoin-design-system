@@ -1,0 +1,137 @@
+{
+  "background": {
+    "$type": "color",
+    "$value": "{color-base-1000}",
+    "$description": "Default page background"
+  },
+  "foreground": {
+    "$type": "color",
+    "$value": "{color-base-50}",
+    "$description": "Default foreground/text color"
+  },
+  "card": {
+    "$type": "color",
+    "$value": "{color-base-900}",
+    "$description": "Card background"
+  },
+  "card-foreground": {
+    "$type": "color",
+    "$value": "{color-base-0}",
+    "$description": "Card foreground/text color"
+  },
+  "popover": {
+    "$type": "color",
+    "$value": "{color-base-900}",
+    "$description": "Popover background"
+  },
+  "popover-foreground": {
+    "$type": "color",
+    "$value": "{color-base-50}",
+    "$description": "Popover foreground/text color"
+  },
+  "primary": {
+    "$type": "color",
+    "$value": "{color-base-50}",
+    "$description": "Primary action color"
+  },
+  "primary-foreground": {
+    "$type": "color",
+    "$value": "{color-base-900}",
+    "$description": "Text on primary color"
+  },
+  "secondary": {
+    "$type": "color",
+    "$value": "{color-base-800}",
+    "$description": "Secondary action color"
+  },
+  "secondary-foreground": {
+    "$type": "color",
+    "$value": "{color-base-0}",
+    "$description": "Text on secondary color"
+  },
+  "muted": {
+    "$type": "color",
+    "$value": "{color-base-800}",
+    "$description": "Muted background"
+  },
+  "muted-foreground": {
+    "$type": "color",
+    "$value": "{color-base-400}",
+    "$description": "Muted text color"
+  },
+  "accent": {
+    "$type": "color",
+    "$value": "{color-accent-yellow-400}",
+    "$description": "Accent color"
+  },
+  "accent-foreground": {
+    "$type": "color",
+    "$value": "{color-base-1000}",
+    "$description": "Text on accent color"
+  },
+  "destructive": {
+    "$type": "color",
+    "$value": "{color-functional-error-500}",
+    "$description": "Destructive action color"
+  },
+  "destructive-foreground": {
+    "$type": "color",
+    "$value": "{color-base-0}",
+    "$description": "Text on destructive color"
+  },
+  "border": {
+    "$type": "color",
+    "$value": "{color-base-800}",
+    "$description": "Default border color"
+  },
+  "input": {
+    "$type": "color",
+    "$value": "{color-base-800}",
+    "$description": "Input border color"
+  },
+  "ring": {
+    "$type": "color",
+    "$value": "{color-accent-yellow-400}",
+    "$description": "Focus ring color"
+  },
+  "sidebar": {
+    "$type": "color",
+    "$value": "{color-base-900}",
+    "$description": "Sidebar background"
+  },
+  "sidebar-foreground": {
+    "$type": "color",
+    "$value": "{color-base-50}",
+    "$description": "Sidebar text color"
+  },
+  "sidebar-primary": {
+    "$type": "color",
+    "$value": "{color-base-50}",
+    "$description": "Sidebar primary action"
+  },
+  "sidebar-primary-foreground": {
+    "$type": "color",
+    "$value": "{color-base-900}",
+    "$description": "Text on sidebar primary"
+  },
+  "sidebar-accent": {
+    "$type": "color",
+    "$value": "{color-base-800}",
+    "$description": "Sidebar accent background"
+  },
+  "sidebar-accent-foreground": {
+    "$type": "color",
+    "$value": "{color-base-50}",
+    "$description": "Text on sidebar accent"
+  },
+  "sidebar-border": {
+    "$type": "color",
+    "$value": "{color-base-800}",
+    "$description": "Sidebar border color"
+  },
+  "sidebar-ring": {
+    "$type": "color",
+    "$value": "{color-accent-yellow-400}",
+    "$description": "Sidebar focus ring"
+  }
+}
