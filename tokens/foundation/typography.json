@@ -1,0 +1,178 @@
+{
+	"font-family-sans": {
+		"$type": "fontFamily",
+		"$value": "Geist"
+	},
+	"font-family-mono": {
+		"$type": "fontFamily",
+		"$value": "Geist Mono"
+	},
+	"font-size-xs": {
+		"$type": "dimension",
+		"$value": "0.75rem"
+	},
+	"font-size-sm": {
+		"$type": "dimension",
+		"$value": "0.875rem"
+	},
+	"font-size-base": {
+		"$type": "dimension",
+		"$value": "1rem"
+	},
+	"font-size-lg": {
+		"$type": "dimension",
+		"$value": "1.125rem"
+	},
+	"font-size-xl": {
+		"$type": "dimension",
+		"$value": "1.25rem"
+	},
+	"font-size-2xl": {
+		"$type": "dimension",
+		"$value": "1.5rem"
+	},
+	"font-size-3xl": {
+		"$type": "dimension",
+		"$value": "1.875rem"
+	},
+	"font-size-4xl": {
+		"$type": "dimension",
+		"$value": "2.25rem"
+	},
+	"font-size-5xl": {
+		"$type": "dimension",
+		"$value": "3rem"
+	},
+	"font-size-6xl": {
+		"$type": "dimension",
+		"$value": "3.75rem"
+	},
+	"font-size-7xl": {
+		"$type": "dimension",
+		"$value": "4.5rem"
+	},
+	"font-size-8xl": {
+		"$type": "dimension",
+		"$value": "6rem"
+	},
+	"font-size-9xl": {
+		"$type": "dimension",
+		"$value": "8rem"
+	},
+	"font-weight-thin": {
+		"$type": "fontWeight",
+		"$value": "100"
+	},
+	"font-weight-extralight": {
+		"$type": "fontWeight",
+		"$value": "200"
+	},
+	"font-weight-light": {
+		"$type": "fontWeight",
+		"$value": "300"
+	},
+	"font-weight-normal": {
+		"$type": "fontWeight",
+		"$value": "400"
+	},
+	"font-weight-medium": {
+		"$type": "fontWeight",
+		"$value": "500"
+	},
+	"font-weight-semibold": {
+		"$type": "fontWeight",
+		"$value": "600"
+	},
+	"font-weight-bold": {
+		"$type": "fontWeight",
+		"$value": "700"
+	},
+	"font-weight-extrabold": {
+		"$type": "fontWeight",
+		"$value": "800"
+	},
+	"font-weight-black": {
+		"$type": "fontWeight",
+		"$value": "900"
+	},
+	"letter-spacing-tighter": {
+		"$type": "dimension",
+		"$value": "-0.05em"
+	},
+	"letter-spacing-tight": {
+		"$type": "dimension",
+		"$value": "-0.025em"
+	},
+	"letter-spacing-normal": {
+		"$type": "dimension",
+		"$value": "0em"
+	},
+	"letter-spacing-wide": {
+		"$type": "dimension",
+		"$value": "0.025em"
+	},
+	"letter-spacing-wider": {
+		"$type": "dimension",
+		"$value": "0.05em"
+	},
+	"letter-spacing-widest": {
+		"$type": "dimension",
+		"$value": "0.1em"
+	},
+	"line-height-none": {
+		"$type": "lineHeight",
+		"$value": "1"
+	},
+	"line-height-tight": {
+		"$type": "lineHeight",
+		"$value": "1.25"
+	},
+	"line-height-snug": {
+		"$type": "lineHeight",
+		"$value": "1.375"
+	},
+	"line-height-normal": {
+		"$type": "lineHeight",
+		"$value": "1.5"
+	},
+	"line-height-relaxed": {
+		"$type": "lineHeight",
+		"$value": "1.625"
+	},
+	"line-height-loose": {
+		"$type": "lineHeight",
+		"$value": "2"
+	},
+	"line-height-3": {
+		"$type": "dimension",
+		"$value": "0.75rem"
+	},
+	"line-height-4": {
+		"$type": "dimension",
+		"$value": "1rem"
+	},
+	"line-height-5": {
+		"$type": "dimension",
+		"$value": "1.25rem"
+	},
+	"line-height-6": {
+		"$type": "dimension",
+		"$value": "1.5rem"
+	},
+	"line-height-7": {
+		"$type": "dimension",
+		"$value": "1.75rem"
+	},
+	"line-height-8": {
+		"$type": "dimension",
+		"$value": "2rem"
+	},
+	"line-height-9": {
+		"$type": "dimension",
+		"$value": "2.25rem"
+	},
+	"line-height-10": {
+		"$type": "dimension",
+		"$value": "2.5rem"
+	}
+}

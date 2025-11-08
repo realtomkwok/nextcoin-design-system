@@ -41,14 +41,15 @@ CSS Variables (shadcn/ui + Tailwind)
 
 Raw design values that form the basis of the system. These are pure, context-free values.
 
-- **Colors**: Raw color palettes in hex format
+- **colors.json**: All color palettes in hex format
     - `base` - Monochrome scale (0, 50, 100...900, 1000)
     - `accent` - Brand accent colors (yellow, cyan)
     - `supporting` - Extended palette (blue, purple, pink)
     - `functional` - Status colors (error, warning, success)
-- **Typography**: Font families, sizes, weights, line heights, letter spacing
-- **Spacing**: 8-point grid system
-- **Effects**: Border radius, shadows, opacity values
+- **typography.json**: Complete typography system including font families, sizes, weights, line heights, and letter spacing
+- **spacing.json**: 8-point grid system
+- **border-radius.json**: Border radius values
+- **effects.json**: Shadows and opacity values
 
 **Naming Pattern**: `{category}-{variant}-{scale}`
 

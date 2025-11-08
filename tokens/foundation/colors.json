@@ -1,0 +1,302 @@
+{
+	"color-base-0": {
+		"$type": "color",
+		"$value": "#ffffff",
+		"$description": "Pure white, light mode cards"
+	},
+	"color-base-50": {
+		"$type": "color",
+		"$value": "#f5f3f0",
+		"$description": "Light mode page background"
+	},
+	"color-base-100": {
+		"$type": "color",
+		"$value": "#e6e4e2",
+		"$description": "Light borders, disabled backgrounds"
+	},
+	"color-base-200": {
+		"$type": "color",
+		"$value": "#cfcdcb",
+		"$description": "Medium borders, subtle emphasis"
+	},
+	"color-base-300": {
+		"$type": "color",
+		"$value": "#bbb9b7",
+		"$description": "Dark mode body text minimum"
+	},
+	"color-base-400": {
+		"$type": "color",
+		"$value": "#adaba8",
+		"$description": "Placeholder text"
+	},
+	"color-base-500": {
+		"$type": "color",
+		"$value": "#999895",
+		"$description": "Secondary text"
+	},
+	"color-base-600": {
+		"$type": "color",
+		"$value": "#7b7a78",
+		"$description": "Light mode body text minimum"
+	},
+	"color-base-700": {
+		"$type": "color",
+		"$value": "#595856",
+		"$description": "Light mode heading text"
+	},
+	"color-base-800": {
+		"$type": "color",
+		"$value": "#3e3d3c",
+		"$description": "Dark mode cards, high contrast text"
+	},
+	"color-base-900": {
+		"$type": "color",
+		"$value": "#161515",
+		"$description": "Dark mode foreground, cards"
+	},
+	"color-base-1000": {
+		"$type": "color",
+		"$value": "#000000",
+		"$description": "Pure black, dark mode page"
+	},
+	"color-accent-yellow-50": {
+		"$type": "color",
+		"$value": "#fff1d0"
+	},
+	"color-accent-yellow-100": {
+		"$type": "color",
+		"$value": "#ffe1a0"
+	},
+	"color-accent-yellow-200": {
+		"$type": "color",
+		"$value": "#f9c647"
+	},
+	"color-accent-yellow-300": {
+		"$type": "color",
+		"$value": "#edb400"
+	},
+	"color-accent-yellow-400": {
+		"$type": "color",
+		"$value": "#cc9f2c"
+	},
+	"color-accent-yellow-500": {
+		"$type": "color",
+		"$value": "#bc9536"
+	},
+	"color-accent-yellow-600": {
+		"$type": "color",
+		"$value": "#8b7647"
+	},
+	"color-accent-yellow-700": {
+		"$type": "color",
+		"$value": "#665633"
+	},
+	"color-accent-yellow-800": {
+		"$type": "color",
+		"$value": "#413a28"
+	},
+	"color-accent-yellow-900": {
+		"$type": "color",
+		"$value": "#19160e"
+	},
+	"color-accent-cyan-50": {
+		"$type": "color",
+		"$value": "#d0fcfe"
+	},
+	"color-accent-cyan-100": {
+		"$type": "color",
+		"$value": "#90f5fb"
+	},
+	"color-accent-cyan-200": {
+		"$type": "color",
+		"$value": "#00e0eb"
+	},
+	"color-accent-cyan-300": {
+		"$type": "color",
+		"$value": "#01d2dc"
+	},
+	"color-accent-cyan-400": {
+		"$type": "color",
+		"$value": "#27bdc6"
+	},
+	"color-accent-cyan-500": {
+		"$type": "color",
+		"$value": "#23a8b0"
+	},
+	"color-accent-cyan-600": {
+		"$type": "color",
+		"$value": "#438286"
+	},
+	"color-accent-cyan-700": {
+		"$type": "color",
+		"$value": "#315e61"
+	},
+	"color-accent-cyan-800": {
+		"$type": "color",
+		"$value": "#273f41"
+	},
+	"color-accent-cyan-900": {
+		"$type": "color",
+		"$value": "#0a191a"
+	},
+	"color-supporting-blue-50": {
+		"$type": "color",
+		"$value": "#e8f3ff"
+	},
+	"color-supporting-blue-100": {
+		"$type": "color",
+		"$value": "#d0e8ff"
+	},
+	"color-supporting-blue-200": {
+		"$type": "color",
+		"$value": "#a2d0fc"
+	},
+	"color-supporting-blue-300": {
+		"$type": "color",
+		"$value": "#83c4ff"
+	},
+	"color-supporting-blue-400": {
+		"$type": "color",
+		"$value": "#57b2ff"
+	},
+	"color-supporting-blue-500": {
+		"$type": "color",
+		"$value": "#4fa0e5"
+	},
+	"color-supporting-blue-600": {
+		"$type": "color",
+		"$value": "#477eae"
+	},
+	"color-supporting-blue-700": {
+		"$type": "color",
+		"$value": "#365978"
+	},
+	"color-supporting-blue-800": {
+		"$type": "color",
+		"$value": "#2c3c4c"
+	},
+	"color-supporting-blue-900": {
+		"$type": "color",
+		"$value": "#0f171f"
+	},
+	"color-supporting-purple-50": {
+		"$type": "color",
+		"$value": "#f5eeff"
+	},
+	"color-supporting-purple-100": {
+		"$type": "color",
+		"$value": "#ece0ff"
+	},
+	"color-supporting-purple-200": {
+		"$type": "color",
+		"$value": "#d9c0ff"
+	},
+	"color-supporting-purple-300": {
+		"$type": "color",
+		"$value": "#ceaaff"
+	},
+	"color-supporting-purple-400": {
+		"$type": "color",
+		"$value": "#c293ff"
+	},
+	"color-supporting-purple-500": {
+		"$type": "color",
+		"$value": "#a884d7"
+	},
+	"color-supporting-purple-600": {
+		"$type": "color",
+		"$value": "#886caf"
+	},
+	"color-supporting-purple-700": {
+		"$type": "color",
+		"$value": "#624e7e"
+	},
+	"color-supporting-purple-800": {
+		"$type": "color",
+		"$value": "#3f364c"
+	},
+	"color-supporting-purple-900": {
+		"$type": "color",
+		"$value": "#191321"
+	},
+	"color-supporting-pink-50": {
+		"$type": "color",
+		"$value": "#fbeef1"
+	},
+	"color-supporting-pink-100": {
+		"$type": "color",
+		"$value": "#ffdbe6"
+	},
+	"color-supporting-pink-200": {
+		"$type": "color",
+		"$value": "#ffb6cc"
+	},
+	"color-supporting-pink-300": {
+		"$type": "color",
+		"$value": "#ff9abc"
+	},
+	"color-supporting-pink-400": {
+		"$type": "color",
+		"$value": "#ff83af"
+	},
+	"color-supporting-pink-500": {
+		"$type": "color",
+		"$value": "#e07b9e"
+	},
+	"color-supporting-pink-600": {
+		"$type": "color",
+		"$value": "#ad607a"
+	},
+	"color-supporting-pink-700": {
+		"$type": "color",
+		"$value": "#7d4558"
+	},
+	"color-supporting-pink-800": {
+		"$type": "color",
+		"$value": "#4c323a"
+	},
+	"color-supporting-pink-900": {
+		"$type": "color",
+		"$value": "#211016"
+	},
+	"color-functional-error-50": {
+		"$type": "color",
+		"$value": "#fceeed"
+	},
+	"color-functional-error-100": {
+		"$type": "color",
+		"$value": "#ffddd9"
+	},
+	"color-functional-error-200": {
+		"$type": "color",
+		"$value": "#ffbab2"
+	},
+	"color-functional-error-300": {
+		"$type": "color",
+		"$value": "#ffa097"
+	},
+	"color-functional-error-400": {
+		"$type": "color",
+		"$value": "#ff857b"
+	},
+	"color-functional-error-500": {
+		"$type": "color",
+		"$value": "#f6534e"
+	},
+	"color-functional-error-600": {
+		"$type": "color",
+		"$value": "#cf413d"
+	},
+	"color-functional-error-700": {
+		"$type": "color",
+		"$value": "#933732"
+	},
+	"color-functional-error-800": {
+		"$type": "color",
+		"$value": "#5a2b27"
+	},
+	"color-functional-error-900": {
+		"$type": "color",
+		"$value": "#22100f"
+	}
+}
