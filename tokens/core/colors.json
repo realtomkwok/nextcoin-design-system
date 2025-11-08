@@ -1,122 +1,376 @@
 {
-  "brand": {
-    "primary": {
-      "$type": "color",
-      "$value": "{color-base-800}",
-      "$description": "Primary brand color"
-    },
-    "secondary": {
-      "$type": "color",
-      "$value": "{color-base-200}",
-      "$description": "Secondary brand color"
-    },
-    "accent-primary": {
-      "$type": "color",
-      "$value": "{color-accent-yellow-300}",
-      "$description": "Primary accent color - Yellow"
-    },
-    "accent-secondary": {
-      "$type": "color",
-      "$value": "{color-accent-cyan-300}",
-      "$description": "Secondary accent color - Cyan"
-    }
-  },
-  "surface": {
-    "page-light": {
-      "$type": "color",
-      "$value": "{color-base-50}",
-      "$description": "Light mode page background"
-    },
-    "page-dark": {
-      "$type": "color",
-      "$value": "{color-base-1000}",
-      "$description": "Dark mode page background"
-    },
-    "card-light": {
-      "$type": "color",
-      "$value": "{color-base-0}",
-      "$description": "Light mode card surface"
-    },
-    "card-dark": {
-      "$type": "color",
-      "$value": "{color-base-900}",
-      "$description": "Dark mode card surface"
-    }
-  },
-  "text": {
-    "primary-light": {
-      "$type": "color",
-      "$value": "{color-base-900}",
-      "$description": "Primary text on light backgrounds"
-    },
-    "primary-dark": {
-      "$type": "color",
-      "$value": "{color-base-50}",
-      "$description": "Primary text on dark backgrounds"
-    },
-    "secondary-light": {
-      "$type": "color",
-      "$value": "{color-base-600}",
-      "$description": "Secondary text on light backgrounds"
-    },
-    "secondary-dark": {
-      "$type": "color",
-      "$value": "{color-base-400}",
-      "$description": "Secondary text on dark backgrounds"
-    },
-    "muted-light": {
-      "$type": "color",
-      "$value": "{color-base-500}",
-      "$description": "Muted text on light backgrounds"
-    },
-    "muted-dark": {
-      "$type": "color",
-      "$value": "{color-base-400}",
-      "$description": "Muted text on dark backgrounds"
-    }
-  },
-  "border": {
-    "default-light": {
-      "$type": "color",
-      "$value": "{color-base-200}",
-      "$description": "Default border on light backgrounds"
-    },
-    "default-dark": {
-      "$type": "color",
-      "$value": "{color-base-800}",
-      "$description": "Default border on dark backgrounds"
-    },
-    "subtle-light": {
-      "$type": "color",
-      "$value": "{color-base-100}",
-      "$description": "Subtle border on light backgrounds"
-    },
-    "subtle-dark": {
-      "$type": "color",
-      "$value": "{color-base-900}",
-      "$description": "Subtle border on dark backgrounds"
-    }
-  },
-  "status": {
-    "error": {
-      "$type": "color",
-      "$value": "{color-functional-error-600}",
-      "$description": "Error state color"
-    },
-    "error-subtle": {
-      "$type": "color",
-      "$value": "{color-functional-error-100}",
-      "$description": "Subtle error background"
-    },
-    "success": {
-      "$type": "color",
-      "$value": "{color-supporting-blue-500}",
-      "$description": "Success state color"
-    },
-    "warning": {
-      "$type": "color",
-      "$value": "{color-accent-yellow-400}",
-      "$description": "Warning state color"
-    }
-  }
+	"brand": {
+		"primary": {
+			"$type": "color",
+			"$value": "{color-base-800}",
+			"$description": "Primary brand color - Dark confident monochrome"
+		},
+		"secondary": {
+			"$type": "color",
+			"$value": "{color-base-200}",
+			"$description": "Secondary brand color - Light subtle monochrome"
+		},
+		"neutral": {
+			"$type": "color",
+			"$value": "{color-base-500}",
+			"$description": "Neutral brand reference - Mid-tone monochrome"
+		},
+		"accent-light": {
+			"$type": "color",
+			"$value": "{color-accent-yellow-300}",
+			"$description": "Light mode accent - Yellow for warmth and energy"
+		},
+		"accent-dark": {
+			"$type": "color",
+			"$value": "{color-accent-cyan-300}",
+			"$description": "Dark mode accent - Cyan for tech-forward visibility"
+		}
+	},
+	"surface": {
+		"page-light": {
+			"$type": "color",
+			"$value": "{color-base-50}",
+			"$description": "Light mode page background"
+		},
+		"page-dark": {
+			"$type": "color",
+			"$value": "{color-base-1000}",
+			"$description": "Dark mode page background"
+		},
+		"card-light": {
+			"$type": "color",
+			"$value": "{color-base-0}",
+			"$description": "Light mode card surface - Elevated white"
+		},
+		"card-dark": {
+			"$type": "color",
+			"$value": "{color-base-900}",
+			"$description": "Dark mode card surface - Elevated near-black"
+		},
+		"elevated-light": {
+			"$type": "color",
+			"$value": "{color-base-0}",
+			"$description": "Light mode elevated surfaces - Stacked modals, popovers"
+		},
+		"elevated-dark": {
+			"$type": "color",
+			"$value": "{color-base-800}",
+			"$description": "Dark mode elevated surfaces - Stacked modals, popovers"
+		},
+		"subtle-light": {
+			"$type": "color",
+			"$value": "{color-base-100}",
+			"$description": "Light mode subtle backgrounds - Inline code, table headers"
+		},
+		"subtle-dark": {
+			"$type": "color",
+			"$value": "{color-base-800}",
+			"$description": "Dark mode subtle backgrounds - Inline code, table headers"
+		}
+	},
+	"onSurface": {
+		"primary-light": {
+			"$type": "color",
+			"$value": "{color-base-1000}",
+			"$description": "Primary text on light surfaces - Headings, body text"
+		},
+		"primary-dark": {
+			"$type": "color",
+			"$value": "{color-base-50}",
+			"$description": "Primary text on dark surfaces - Headings, body text"
+		},
+		"secondary-light": {
+			"$type": "color",
+			"$value": "{color-base-600}",
+			"$description": "Secondary text on light surfaces - Captions, labels"
+		},
+		"secondary-dark": {
+			"$type": "color",
+			"$value": "{color-base-300}",
+			"$description": "Secondary text on dark surfaces - Captions, labels"
+		},
+		"tertiary-light": {
+			"$type": "color",
+			"$value": "{color-base-500}",
+			"$description": "Tertiary text on light surfaces - Placeholders, disabled"
+		},
+		"tertiary-dark": {
+			"$type": "color",
+			"$value": "{color-base-400}",
+			"$description": "Tertiary text on dark surfaces - Placeholders, disabled"
+		},
+		"inverse-light": {
+			"$type": "color",
+			"$value": "{color-base-0}",
+			"$description": "Inverse text on light mode - Text on dark surfaces"
+		},
+		"inverse-dark": {
+			"$type": "color",
+			"$value": "{color-base-1000}",
+			"$description": "Inverse text on dark mode - Text on light surfaces"
+		}
+	},
+	"border": {
+		"default-light": {
+			"$type": "color",
+			"$value": "{color-base-200}",
+			"$description": "Default border on light backgrounds"
+		},
+		"default-dark": {
+			"$type": "color",
+			"$value": "{color-base-600}",
+			"$description": "Default border on dark backgrounds"
+		},
+		"subtle-light": {
+			"$type": "color",
+			"$value": "{color-base-100}",
+			"$description": "Subtle border on light backgrounds"
+		},
+		"subtle-dark": {
+			"$type": "color",
+			"$value": "{color-base-700}",
+			"$description": "Subtle border on dark backgrounds"
+		},
+		"strong-light": {
+			"$type": "color",
+			"$value": "{color-base-300}",
+			"$description": "Strong border on light backgrounds"
+		},
+		"strong-dark": {
+			"$type": "color",
+			"$value": "{color-base-500}",
+			"$description": "Strong border on dark backgrounds"
+		}
+	},
+	"interactive": {
+		"primary-light": {
+			"$type": "color",
+			"$value": "{color-base-1000}",
+			"$description": "Primary interactive elements on light mode - Primary buttons"
+		},
+		"primary-dark": {
+			"$type": "color",
+			"$value": "{color-base-50}",
+			"$description": "Primary interactive elements on dark mode - Primary buttons"
+		},
+		"secondary-light": {
+			"$type": "color",
+			"$value": "{color-base-200}",
+			"$description": "Secondary interactive elements on light mode - Secondary buttons"
+		},
+		"secondary-dark": {
+			"$type": "color",
+			"$value": "{color-base-700}",
+			"$description": "Secondary interactive elements on dark mode - Secondary buttons"
+		},
+		"hover-light": {
+			"$type": "color",
+			"$value": "{color-base-700}",
+			"$description": "Hover state on light mode"
+		},
+		"hover-dark": {
+			"$type": "color",
+			"$value": "{color-base-600}",
+			"$description": "Hover state on dark mode"
+		},
+		"disabled-light": {
+			"$type": "color",
+			"$value": "{color-base-300}",
+			"$description": "Disabled state on light mode"
+		},
+		"disabled-dark": {
+			"$type": "color",
+			"$value": "{color-base-500}",
+			"$description": "Disabled state on dark mode"
+		}
+	},
+	"focus": {
+		"ring-light": {
+			"$type": "color",
+			"$value": "{color-accent-yellow-300}",
+			"$description": "Focus ring on light mode - Warm, energetic yellow"
+		},
+		"ring-dark": {
+			"$type": "color",
+			"$value": "{color-accent-cyan-300}",
+			"$description": "Focus ring on dark mode - Cool, high-visibility cyan"
+		},
+		"ring-offset-light": {
+			"$type": "color",
+			"$value": "{color-base-0}",
+			"$description": "Focus ring offset background on light mode"
+		},
+		"ring-offset-dark": {
+			"$type": "color",
+			"$value": "{color-base-900}",
+			"$description": "Focus ring offset background on dark mode"
+		}
+	},
+	"accent": {
+		"yellow": {
+			"default": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-300}",
+				"$description": "Yellow accent default - Energy, highlights, CTAs"
+			},
+			"subtle": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-50}",
+				"$description": "Yellow accent subtle background"
+			},
+			"emphasis": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-400}",
+				"$description": "Yellow accent emphasis - Hover states"
+			},
+			"onAccent-light": {
+				"$type": "color",
+				"$value": "{color-base-1000}",
+				"$description": "Text on yellow accent in light mode"
+			},
+			"onAccent-dark": {
+				"$type": "color",
+				"$value": "{color-base-1000}",
+				"$description": "Text on yellow accent in dark mode"
+			}
+		},
+		"cyan": {
+			"default": {
+				"$type": "color",
+				"$value": "{color-accent-cyan-300}",
+				"$description": "Cyan accent default - Tech, links, innovation"
+			},
+			"subtle": {
+				"$type": "color",
+				"$value": "{color-accent-cyan-50}",
+				"$description": "Cyan accent subtle background"
+			},
+			"emphasis": {
+				"$type": "color",
+				"$value": "{color-accent-cyan-400}",
+				"$description": "Cyan accent emphasis - Hover states"
+			},
+			"onAccent-light": {
+				"$type": "color",
+				"$value": "{color-base-1000}",
+				"$description": "Text on cyan accent in light mode"
+			},
+			"onAccent-dark": {
+				"$type": "color",
+				"$value": "{color-base-1000}",
+				"$description": "Text on cyan accent in dark mode"
+			}
+		},
+		"blue": {
+			"default": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-500}",
+				"$description": "Blue accent default - Info, trust (Future implementation)"
+			},
+			"subtle": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-50}",
+				"$description": "Blue accent subtle background (Future implementation)"
+			},
+			"emphasis": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-600}",
+				"$description": "Blue accent emphasis (Future implementation)"
+			},
+			"onAccent-light": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Text on blue accent in light mode (Future implementation)"
+			},
+			"onAccent-dark": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Text on blue accent in dark mode (Future implementation)"
+			}
+		},
+		"purple": {
+			"default": {
+				"$type": "color",
+				"$value": "{color-supporting-purple-500}",
+				"$description": "Purple accent default - Premium, creative (Future implementation)"
+			},
+			"subtle": {
+				"$type": "color",
+				"$value": "{color-supporting-purple-50}",
+				"$description": "Purple accent subtle background (Future implementation)"
+			},
+			"emphasis": {
+				"$type": "color",
+				"$value": "{color-supporting-purple-600}",
+				"$description": "Purple accent emphasis (Future implementation)"
+			},
+			"onAccent-light": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Text on purple accent in light mode (Future implementation)"
+			},
+			"onAccent-dark": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Text on purple accent in dark mode (Future implementation)"
+			}
+		}
+	},
+	"feedback": {
+		"error": {
+			"$type": "color",
+			"$value": "{color-functional-error-600}",
+			"$description": "Error state color"
+		},
+		"error-subtle": {
+			"$type": "color",
+			"$value": "{color-functional-error-100}",
+			"$description": "Subtle error background"
+		},
+		"error-emphasis": {
+			"$type": "color",
+			"$value": "{color-functional-error-700}",
+			"$description": "Error emphasis - For error text"
+		},
+		"error-onError-light": {
+			"$type": "color",
+			"$value": "{color-base-0}",
+			"$description": "Text on error background in light mode"
+		},
+		"error-onError-dark": {
+			"$type": "color",
+			"$value": "{color-base-0}",
+			"$description": "Text on error background in dark mode"
+		},
+		"warning": {
+			"$type": "color",
+			"$value": "{color-accent-yellow-400}",
+			"$description": "Warning state color (TODO: Future implementation with proper warning scale)"
+		},
+		"warning-subtle": {
+			"$type": "color",
+			"$value": "{color-accent-yellow-50}",
+			"$description": "Subtle warning background (TODO: Future implementation)"
+		},
+		"success": {
+			"$type": "color",
+			"$value": "{color-supporting-blue-500}",
+			"$description": "Success state color (TODO: Replace with proper green scale)"
+		},
+		"success-subtle": {
+			"$type": "color",
+			"$value": "{color-supporting-blue-50}",
+			"$description": "Subtle success background (TODO: Replace with proper green scale)"
+		},
+		"info": {
+			"$type": "color",
+			"$value": "{color-supporting-blue-500}",
+			"$description": "Info state color (TODO: Future implementation)"
+		},
+		"info-subtle": {
+			"$type": "color",
+			"$value": "{color-supporting-blue-50}",
+			"$description": "Subtle info background (TODO: Future implementation)"
+		}
+	}
 }
