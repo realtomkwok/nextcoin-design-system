@@ -1,0 +1,62 @@
+{
+  "color-base-0": {
+    "$type": "color",
+    "$value": "#ffffff",
+    "$description": "Pure white, light mode cards"
+  },
+  "color-base-50": {
+    "$type": "color",
+    "$value": "#f5f3f0",
+    "$description": "Light mode page background"
+  },
+  "color-base-100": {
+    "$type": "color",
+    "$value": "#e6e4e2",
+    "$description": "Light borders, disabled backgrounds"
+  },
+  "color-base-200": {
+    "$type": "color",
+    "$value": "#cfcdcb",
+    "$description": "Medium borders, subtle emphasis"
+  },
+  "color-base-300": {
+    "$type": "color",
+    "$value": "#bbb9b7",
+    "$description": "Dark mode body text minimum"
+  },
+  "color-base-400": {
+    "$type": "color",
+    "$value": "#adaba8",
+    "$description": "Placeholder text"
+  },
+  "color-base-500": {
+    "$type": "color",
+    "$value": "#999895",
+    "$description": "Secondary text"
+  },
+  "color-base-600": {
+    "$type": "color",
+    "$value": "#7b7a78",
+    "$description": "Light mode body text minimum"
+  },
+  "color-base-700": {
+    "$type": "color",
+    "$value": "#595856",
+    "$description": "Light mode heading text"
+  },
+  "color-base-800": {
+    "$type": "color",
+    "$value": "#3e3d3c",
+    "$description": "Dark mode cards, high contrast text"
+  },
+  "color-base-900": {
+    "$type": "color",
+    "$value": "#161515",
+    "$description": "Dark mode foreground, cards"
+  },
+  "color-base-1000": {
+    "$type": "color",
+    "$value": "#000000",
+    "$description": "Pure black, dark mode page"
+  }
+}

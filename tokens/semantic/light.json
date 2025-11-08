@@ -1,0 +1,137 @@
+{
+	"background": {
+		"$type": "color",
+		"$value": "{surface.page-light}",
+		"$description": "Default page background"
+	},
+	"foreground": {
+		"$type": "color",
+		"$value": "{onSurface.primary-light}",
+		"$description": "Default foreground/text color"
+	},
+	"card": {
+		"$type": "color",
+		"$value": "{surface.card-light}",
+		"$description": "Card background"
+	},
+	"card-foreground": {
+		"$type": "color",
+		"$value": "{onSurface.primary-light}",
+		"$description": "Card foreground/text color"
+	},
+	"popover": {
+		"$type": "color",
+		"$value": "{surface.elevated-light}",
+		"$description": "Popover background"
+	},
+	"popover-foreground": {
+		"$type": "color",
+		"$value": "{onSurface.primary-light}",
+		"$description": "Popover foreground/text color"
+	},
+	"primary": {
+		"$type": "color",
+		"$value": "{interactive.primary-light}",
+		"$description": "Primary action color"
+	},
+	"primary-foreground": {
+		"$type": "color",
+		"$value": "{onSurface.inverse-light}",
+		"$description": "Text on primary color"
+	},
+	"secondary": {
+		"$type": "color",
+		"$value": "{interactive.secondary-light}",
+		"$description": "Secondary action color"
+	},
+	"secondary-foreground": {
+		"$type": "color",
+		"$value": "{onSurface.primary-light}",
+		"$description": "Text on secondary color"
+	},
+	"muted": {
+		"$type": "color",
+		"$value": "{surface.subtle-light}",
+		"$description": "Muted background"
+	},
+	"muted-foreground": {
+		"$type": "color",
+		"$value": "{onSurface.secondary-light}",
+		"$description": "Muted text color"
+	},
+	"accent": {
+		"$type": "color",
+		"$value": "{brand.secondary}",
+		"$description": "Accent background for hover states"
+	},
+	"accent-foreground": {
+		"$type": "color",
+		"$value": "{onSurface.primary-light}",
+		"$description": "Text on accent background"
+	},
+	"destructive": {
+		"$type": "color",
+		"$value": "{feedback.error}",
+		"$description": "Destructive action color"
+	},
+	"destructive-foreground": {
+		"$type": "color",
+		"$value": "{feedback.error-onError-light}",
+		"$description": "Text on destructive color"
+	},
+	"border": {
+		"$type": "color",
+		"$value": "{border.default-light}",
+		"$description": "Default border color"
+	},
+	"input": {
+		"$type": "color",
+		"$value": "{border.default-light}",
+		"$description": "Input border color"
+	},
+	"ring": {
+		"$type": "color",
+		"$value": "{focus.ring-light}",
+		"$description": "Focus ring color"
+	},
+	"sidebar": {
+		"$type": "color",
+		"$value": "{surface.page-light}",
+		"$description": "Sidebar background"
+	},
+	"sidebar-foreground": {
+		"$type": "color",
+		"$value": "{onSurface.primary-light}",
+		"$description": "Sidebar text color"
+	},
+	"sidebar-primary": {
+		"$type": "color",
+		"$value": "{interactive.primary-light}",
+		"$description": "Sidebar primary action"
+	},
+	"sidebar-primary-foreground": {
+		"$type": "color",
+		"$value": "{onSurface.inverse-light}",
+		"$description": "Text on sidebar primary"
+	},
+	"sidebar-accent": {
+		"$type": "color",
+		"$value": "{surface.card-light}",
+		"$description": "Sidebar accent background"
+	},
+	"sidebar-accent-foreground": {
+		"$type": "color",
+		"$value": "{onSurface.primary-light}",
+		"$description": "Text on sidebar accent"
+	},
+	"sidebar-border": {
+		"$type": "color",
+		"$value": "{border.default-light}",
+		"$description": "Sidebar border color"
+	},
+	"sidebar-ring": {
+		"$type": "color",
+		"$value": "{focus.ring-light}",
+		"$description": "Sidebar focus ring"
+	}
+}

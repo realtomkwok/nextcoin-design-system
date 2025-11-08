@@ -66,7 +66,7 @@ Brand-level semantic roles that define "what this color/style means for NextCoin
 
 - **Brand Colours**: Primary, secondary, tertiary brand identities
 - **Typography Styles**: Composed heading, body, label, button styles
-- **Brand Effects**: Signature shadows, brand-specific treatments
+- **Brand Effects**: Signature shadows, brand-specific treatments 
 
 **Naming Pattern**: `{role}.{variant}`
 
@@ -782,7 +782,7 @@ Complete examples showing how colors flow through Foundation → Core → Semant
 
 ---
 
-### Color Role Mappin
+### Color Role Mapping
 
 How foundation colors map to brand roles:
 

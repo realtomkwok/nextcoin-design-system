@@ -1,0 +1,26 @@
+{
+  "letter-spacing-tighter": {
+    "$type": "dimension",
+    "$value": "-0.05em"
+  },
+  "letter-spacing-tight": {
+    "$type": "dimension",
+    "$value": "-0.025em"
+  },
+  "letter-spacing-normal": {
+    "$type": "dimension",
+    "$value": "0em"
+  },
+  "letter-spacing-wide": {
+    "$type": "dimension",
+    "$value": "0.025em"
+  },
+  "letter-spacing-wider": {
+    "$type": "dimension",
+    "$value": "0.05em"
+  },
+  "letter-spacing-widest": {
+    "$type": "dimension",
+    "$value": "0.1em"
+  }
+}
