@@ -1,145 +1,118 @@
 {
-	"brand": {
-		"primary": {
-			"$type": "color",
-			"$value": "{color-base-800}",
-			"$description": "Primary brand color - Dark confident monochrome"
-		},
-		"secondary": {
-			"$type": "color",
-			"$value": "{color-base-200}",
-			"$description": "Secondary brand color - Light subtle monochrome"
-		},
-		"neutral": {
-			"$type": "color",
-			"$value": "{color-base-500}",
-			"$description": "Neutral brand reference - Mid-tone monochrome"
-		},
-		"accent-light": {
-			"$type": "color",
-			"$value": "{color-accent-yellow-300}",
-			"$description": "Light mode accent - Yellow for warmth and energy"
-		},
-		"accent-dark": {
-			"$type": "color",
-			"$value": "{color-accent-cyan-300}",
-			"$description": "Dark mode accent - Cyan for tech-forward visibility"
-		}
-	},
 	"surface": {
-		"page-light": {
-			"$type": "color",
-			"$value": "{color-base-50}",
-			"$description": "Light mode page background"
-		},
-		"page-dark": {
-			"$type": "color",
-			"$value": "{color-base-1000}",
-			"$description": "Dark mode page background"
-		},
-		"card-light": {
+		"primary-light": {
 			"$type": "color",
 			"$value": "{color-base-0}",
-			"$description": "Light mode card surface - Elevated white"
+			"$description": "Primary surface in light mode"
 		},
-		"card-dark": {
+		"primary-dark": {
 			"$type": "color",
 			"$value": "{color-base-900}",
-			"$description": "Dark mode card surface - Elevated near-black"
+			"$description": "Primary surface in dark mode"
+		},
+		"secondary-light": {
+			"$type": "color",
+			"$value": "{color-base-50}",
+			"$description": "Secondary surface in light mode"
+		},
+		"secondary-dark": {
+			"$type": "color",
+			"$value": "{color-base-1000}",
+			"$description": "Secondary surface in dark mode"
+		},
+		"muted-light": {
+			"$type": "color",
+			"$value": "{color-base-100}",
+			"$description": "Muted surface in light mode"
+		},
+		"muted-dark": {
+			"$type": "color",
+			"$value": "{color-base-800}",
+			"$description": "Muted surface in dark mode"
 		},
 		"elevated-light": {
 			"$type": "color",
 			"$value": "{color-base-0}",
-			"$description": "Light mode elevated surfaces - Stacked modals, popovers"
+			"$description": "Elevated surface in light mode"
 		},
 		"elevated-dark": {
 			"$type": "color",
 			"$value": "{color-base-800}",
-			"$description": "Dark mode elevated surfaces - Stacked modals, popovers"
-		},
-		"subtle-light": {
-			"$type": "color",
-			"$value": "{color-base-100}",
-			"$description": "Light mode subtle backgrounds - Inline code, table headers"
-		},
-		"subtle-dark": {
-			"$type": "color",
-			"$value": "{color-base-800}",
-			"$description": "Dark mode subtle backgrounds - Inline code, table headers"
+			"$description": "Elevated surface in dark mode"
 		}
 	},
-	"onSurface": {
+	"on-surface": {
 		"primary-light": {
 			"$type": "color",
 			"$value": "{color-base-1000}",
-			"$description": "Primary text on light surfaces - Headings, body text"
+			"$description": "Primary text in light mode"
 		},
 		"primary-dark": {
 			"$type": "color",
 			"$value": "{color-base-50}",
-			"$description": "Primary text on dark surfaces - Headings, body text"
+			"$description": "Primary text in dark mode"
 		},
 		"secondary-light": {
 			"$type": "color",
 			"$value": "{color-base-600}",
-			"$description": "Secondary text on light surfaces - Captions, labels"
+			"$description": "Secondary text in light mode"
 		},
 		"secondary-dark": {
 			"$type": "color",
 			"$value": "{color-base-300}",
-			"$description": "Secondary text on dark surfaces - Captions, labels"
+			"$description": "Secondary text in dark mode"
 		},
-		"tertiary-light": {
+		"muted-light": {
 			"$type": "color",
 			"$value": "{color-base-500}",
-			"$description": "Tertiary text on light surfaces - Placeholders, disabled"
+			"$description": "Muted text in light mode"
 		},
-		"tertiary-dark": {
+		"muted-dark": {
 			"$type": "color",
 			"$value": "{color-base-400}",
-			"$description": "Tertiary text on dark surfaces - Placeholders, disabled"
+			"$description": "Muted text in dark mode"
 		},
 		"inverse-light": {
 			"$type": "color",
 			"$value": "{color-base-0}",
-			"$description": "Inverse text on light mode - Text on dark surfaces"
+			"$description": "Inverse text in light mode"
 		},
 		"inverse-dark": {
 			"$type": "color",
 			"$value": "{color-base-1000}",
-			"$description": "Inverse text on dark mode - Text on light surfaces"
+			"$description": "Inverse text in dark mode"
 		}
 	},
 	"border": {
-		"default-light": {
+		"primary-light": {
 			"$type": "color",
 			"$value": "{color-base-200}",
-			"$description": "Default border on light backgrounds"
+			"$description": "Primary border in light mode"
 		},
-		"default-dark": {
+		"primary-dark": {
 			"$type": "color",
 			"$value": "{color-base-600}",
-			"$description": "Default border on dark backgrounds"
+			"$description": "Primary border in dark mode"
 		},
-		"subtle-light": {
+		"secondary-light": {
 			"$type": "color",
 			"$value": "{color-base-100}",
-			"$description": "Subtle border on light backgrounds"
+			"$description": "Secondary border in light mode"
 		},
-		"subtle-dark": {
+		"secondary-dark": {
 			"$type": "color",
 			"$value": "{color-base-700}",
-			"$description": "Subtle border on dark backgrounds"
+			"$description": "Secondary border in dark mode"
 		},
-		"strong-light": {
+		"muted-light": {
 			"$type": "color",
 			"$value": "{color-base-300}",
-			"$description": "Strong border on light backgrounds"
+			"$description": "Muted border in light mode"
 		},
-		"strong-dark": {
+		"muted-dark": {
 			"$type": "color",
 			"$value": "{color-base-500}",
-			"$description": "Strong border on dark backgrounds"
+			"$description": "Muted border in dark mode"
 		}
 	},
 	"interactive": {
@@ -185,192 +158,431 @@
 		}
 	},
 	"focus": {
-		"ring-light": {
+		"primary-light": {
 			"$type": "color",
 			"$value": "{color-accent-yellow-300}",
-			"$description": "Focus ring on light mode - Warm, energetic yellow"
+			"$description": "Focus ring in light mode - Warm, energetic yellow"
 		},
-		"ring-dark": {
+		"primary-dark": {
 			"$type": "color",
 			"$value": "{color-accent-cyan-300}",
-			"$description": "Focus ring on dark mode - Cool, high-visibility cyan"
+			"$description": "Focus ring in dark mode - Cool, high-visibility cyan"
 		},
-		"ring-offset-light": {
+		"offset-light": {
 			"$type": "color",
 			"$value": "{color-base-0}",
-			"$description": "Focus ring offset background on light mode"
+			"$description": "Focus ring offset background in light mode"
 		},
-		"ring-offset-dark": {
+		"offset-dark": {
 			"$type": "color",
 			"$value": "{color-base-900}",
-			"$description": "Focus ring offset background on dark mode"
+			"$description": "Focus ring offset background in dark mode"
 		}
 	},
-	"accent": {
+	"brand": {
 		"yellow": {
-			"default": {
+			"primary-light": {
 				"$type": "color",
 				"$value": "{color-accent-yellow-300}",
-				"$description": "Yellow accent default - Energy, highlights, CTAs"
+				"$description": "Yellow primary in light mode"
 			},
-			"subtle": {
-				"$type": "color",
-				"$value": "{color-accent-yellow-50}",
-				"$description": "Yellow accent subtle background"
-			},
-			"emphasis": {
+			"primary-dark": {
 				"$type": "color",
 				"$value": "{color-accent-yellow-400}",
-				"$description": "Yellow accent emphasis - Hover states"
+				"$description": "Yellow primary in dark mode"
 			},
-			"onAccent-light": {
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-50}",
+				"$description": "Yellow secondary in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-900}",
+				"$description": "Yellow secondary in dark mode"
+			},
+			"muted-light": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-100}",
+				"$description": "Yellow muted in light mode"
+			},
+			"muted-dark": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-800}",
+				"$description": "Yellow muted in dark mode"
+			}
+		},
+		"on-yellow": {
+			"primary-light": {
 				"$type": "color",
 				"$value": "{color-base-1000}",
-				"$description": "Text on yellow accent in light mode"
+				"$description": "Primary text on yellow in light mode"
 			},
-			"onAccent-dark": {
+			"primary-dark": {
 				"$type": "color",
 				"$value": "{color-base-1000}",
-				"$description": "Text on yellow accent in dark mode"
+				"$description": "Primary text on yellow in dark mode"
+			},
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-base-800}",
+				"$description": "Secondary text on yellow in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-base-900}",
+				"$description": "Secondary text on yellow in dark mode"
 			}
 		},
 		"cyan": {
-			"default": {
+			"primary-light": {
 				"$type": "color",
 				"$value": "{color-accent-cyan-300}",
-				"$description": "Cyan accent default - Tech, links, innovation"
+				"$description": "Cyan primary in light mode"
 			},
-			"subtle": {
-				"$type": "color",
-				"$value": "{color-accent-cyan-50}",
-				"$description": "Cyan accent subtle background"
-			},
-			"emphasis": {
+			"primary-dark": {
 				"$type": "color",
 				"$value": "{color-accent-cyan-400}",
-				"$description": "Cyan accent emphasis - Hover states"
+				"$description": "Cyan primary in dark mode"
 			},
-			"onAccent-light": {
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-accent-cyan-50}",
+				"$description": "Cyan secondary in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-accent-cyan-900}",
+				"$description": "Cyan secondary in dark mode"
+			},
+			"muted-light": {
+				"$type": "color",
+				"$value": "{color-accent-cyan-100}",
+				"$description": "Cyan muted in light mode"
+			},
+			"muted-dark": {
+				"$type": "color",
+				"$value": "{color-accent-cyan-800}",
+				"$description": "Cyan muted in dark mode"
+			}
+		},
+		"on-cyan": {
+			"primary-light": {
 				"$type": "color",
 				"$value": "{color-base-1000}",
-				"$description": "Text on cyan accent in light mode"
+				"$description": "Primary text on cyan in light mode"
 			},
-			"onAccent-dark": {
+			"primary-dark": {
 				"$type": "color",
 				"$value": "{color-base-1000}",
-				"$description": "Text on cyan accent in dark mode"
+				"$description": "Primary text on cyan in dark mode"
+			},
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-base-800}",
+				"$description": "Secondary text on cyan in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-base-900}",
+				"$description": "Secondary text on cyan in dark mode"
 			}
 		},
 		"blue": {
-			"default": {
+			"primary-light": {
 				"$type": "color",
 				"$value": "{color-supporting-blue-500}",
-				"$description": "Blue accent default - Info, trust (Future implementation)"
+				"$description": "Blue primary in light mode"
 			},
-			"subtle": {
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-400}",
+				"$description": "Blue primary in dark mode"
+			},
+			"secondary-light": {
 				"$type": "color",
 				"$value": "{color-supporting-blue-50}",
-				"$description": "Blue accent subtle background (Future implementation)"
+				"$description": "Blue secondary in light mode"
 			},
-			"emphasis": {
+			"secondary-dark": {
 				"$type": "color",
-				"$value": "{color-supporting-blue-600}",
-				"$description": "Blue accent emphasis (Future implementation)"
+				"$value": "{color-supporting-blue-900}",
+				"$description": "Blue secondary in dark mode"
 			},
-			"onAccent-light": {
+			"muted-light": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-100}",
+				"$description": "Blue muted in light mode"
+			},
+			"muted-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-800}",
+				"$description": "Blue muted in dark mode"
+			}
+		},
+		"on-blue": {
+			"primary-light": {
 				"$type": "color",
 				"$value": "{color-base-0}",
-				"$description": "Text on blue accent in light mode (Future implementation)"
+				"$description": "Primary text on blue in light mode"
 			},
-			"onAccent-dark": {
+			"primary-dark": {
 				"$type": "color",
 				"$value": "{color-base-0}",
-				"$description": "Text on blue accent in dark mode (Future implementation)"
+				"$description": "Primary text on blue in dark mode"
+			},
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-base-100}",
+				"$description": "Secondary text on blue in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-base-100}",
+				"$description": "Secondary text on blue in dark mode"
 			}
 		},
 		"purple": {
-			"default": {
+			"primary-light": {
 				"$type": "color",
 				"$value": "{color-supporting-purple-500}",
-				"$description": "Purple accent default - Premium, creative (Future implementation)"
+				"$description": "Purple primary in light mode"
 			},
-			"subtle": {
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-purple-400}",
+				"$description": "Purple primary in dark mode"
+			},
+			"secondary-light": {
 				"$type": "color",
 				"$value": "{color-supporting-purple-50}",
-				"$description": "Purple accent subtle background (Future implementation)"
+				"$description": "Purple secondary in light mode"
 			},
-			"emphasis": {
+			"secondary-dark": {
 				"$type": "color",
-				"$value": "{color-supporting-purple-600}",
-				"$description": "Purple accent emphasis (Future implementation)"
+				"$value": "{color-supporting-purple-900}",
+				"$description": "Purple secondary in dark mode"
 			},
-			"onAccent-light": {
+			"muted-light": {
+				"$type": "color",
+				"$value": "{color-supporting-purple-100}",
+				"$description": "Purple muted in light mode"
+			},
+			"muted-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-purple-800}",
+				"$description": "Purple muted in dark mode"
+			}
+		},
+		"on-purple": {
+			"primary-light": {
 				"$type": "color",
 				"$value": "{color-base-0}",
-				"$description": "Text on purple accent in light mode (Future implementation)"
+				"$description": "Primary text on purple in light mode"
 			},
-			"onAccent-dark": {
+			"primary-dark": {
 				"$type": "color",
 				"$value": "{color-base-0}",
-				"$description": "Text on purple accent in dark mode (Future implementation)"
+				"$description": "Primary text on purple in dark mode"
+			},
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-base-100}",
+				"$description": "Secondary text on purple in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-base-100}",
+				"$description": "Secondary text on purple in dark mode"
 			}
 		}
 	},
 	"feedback": {
 		"error": {
-			"$type": "color",
-			"$value": "{color-functional-error-600}",
-			"$description": "Error state color"
+			"primary-light": {
+				"$type": "color",
+				"$value": "{color-functional-error-600}",
+				"$description": "Error primary in light mode"
+			},
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-functional-error-500}",
+				"$description": "Error primary in dark mode"
+			},
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-functional-error-100}",
+				"$description": "Error secondary in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-functional-error-900}",
+				"$description": "Error secondary in dark mode"
+			},
+			"muted-light": {
+				"$type": "color",
+				"$value": "{color-functional-error-50}",
+				"$description": "Error muted in light mode"
+			},
+			"muted-dark": {
+				"$type": "color",
+				"$value": "{color-functional-error-950}",
+				"$description": "Error muted in dark mode"
+			}
 		},
-		"error-subtle": {
-			"$type": "color",
-			"$value": "{color-functional-error-100}",
-			"$description": "Subtle error background"
-		},
-		"error-emphasis": {
-			"$type": "color",
-			"$value": "{color-functional-error-700}",
-			"$description": "Error emphasis - For error text"
-		},
-		"error-onError-light": {
-			"$type": "color",
-			"$value": "{color-base-0}",
-			"$description": "Text on error background in light mode"
-		},
-		"error-onError-dark": {
-			"$type": "color",
-			"$value": "{color-base-0}",
-			"$description": "Text on error background in dark mode"
+		"on-error": {
+			"primary-light": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Primary text on error in light mode"
+			},
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Primary text on error in dark mode"
+			},
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-functional-error-900}",
+				"$description": "Secondary text on error in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-functional-error-100}",
+				"$description": "Secondary text on error in dark mode"
+			}
 		},
 		"warning": {
-			"$type": "color",
-			"$value": "{color-accent-yellow-400}",
-			"$description": "Warning state color (TODO: Future implementation with proper warning scale)"
+			"primary-light": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-500}",
+				"$description": "Warning primary in light mode"
+			},
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-400}",
+				"$description": "Warning primary in dark mode"
+			},
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-50}",
+				"$description": "Warning secondary in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-900}",
+				"$description": "Warning secondary in dark mode"
+			},
+			"muted-light": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-100}",
+				"$description": "Warning muted in light mode"
+			},
+			"muted-dark": {
+				"$type": "color",
+				"$value": "{color-accent-yellow-800}",
+				"$description": "Warning muted in dark mode"
+			}
 		},
-		"warning-subtle": {
-			"$type": "color",
-			"$value": "{color-accent-yellow-50}",
-			"$description": "Subtle warning background (TODO: Future implementation)"
+		"on-warning": {
+			"primary-light": {
+				"$type": "color",
+				"$value": "{color-base-1000}",
+				"$description": "Primary text on warning in light mode"
+			},
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-base-1000}",
+				"$description": "Primary text on warning in dark mode"
+			}
 		},
 		"success": {
-			"$type": "color",
-			"$value": "{color-supporting-blue-500}",
-			"$description": "Success state color (TODO: Replace with proper green scale)"
+			"primary-light": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-500}",
+				"$description": "Success primary in light mode (TODO: Replace with green)"
+			},
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-400}",
+				"$description": "Success primary in dark mode (TODO: Replace with green)"
+			},
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-50}",
+				"$description": "Success secondary in light mode (TODO: Replace with green)"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-900}",
+				"$description": "Success secondary in dark mode (TODO: Replace with green)"
+			},
+			"muted-light": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-100}",
+				"$description": "Success muted in light mode (TODO: Replace with green)"
+			},
+			"muted-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-800}",
+				"$description": "Success muted in dark mode (TODO: Replace with green)"
+			}
 		},
-		"success-subtle": {
-			"$type": "color",
-			"$value": "{color-supporting-blue-50}",
-			"$description": "Subtle success background (TODO: Replace with proper green scale)"
+		"on-success": {
+			"primary-light": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Primary text on success in light mode"
+			},
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Primary text on success in dark mode"
+			}
 		},
 		"info": {
-			"$type": "color",
-			"$value": "{color-supporting-blue-500}",
-			"$description": "Info state color (TODO: Future implementation)"
+			"primary-light": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-500}",
+				"$description": "Info primary in light mode"
+			},
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-400}",
+				"$description": "Info primary in dark mode"
+			},
+			"secondary-light": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-50}",
+				"$description": "Info secondary in light mode"
+			},
+			"secondary-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-900}",
+				"$description": "Info secondary in dark mode"
+			},
+			"muted-light": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-100}",
+				"$description": "Info muted in light mode"
+			},
+			"muted-dark": {
+				"$type": "color",
+				"$value": "{color-supporting-blue-800}",
+				"$description": "Info muted in dark mode"
+			}
 		},
-		"info-subtle": {
-			"$type": "color",
-			"$value": "{color-supporting-blue-50}",
-			"$description": "Subtle info background (TODO: Future implementation)"
+		"on-info": {
+			"primary-light": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Primary text on info in light mode"
+			},
+			"primary-dark": {
+				"$type": "color",
+				"$value": "{color-base-0}",
+				"$description": "Primary text on info in dark mode"
+			}
 		}
 	}
 }

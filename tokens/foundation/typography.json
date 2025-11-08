@@ -8,171 +8,171 @@
 		"$value": "Geist Mono"
 	},
 	"font-size-xs": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "0.75rem"
 	},
 	"font-size-sm": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "0.875rem"
 	},
 	"font-size-base": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "1rem"
 	},
 	"font-size-lg": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "1.125rem"
 	},
 	"font-size-xl": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "1.25rem"
 	},
 	"font-size-2xl": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "1.5rem"
 	},
 	"font-size-3xl": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "1.875rem"
 	},
 	"font-size-4xl": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "2.25rem"
 	},
 	"font-size-5xl": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "3rem"
 	},
 	"font-size-6xl": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "3.75rem"
 	},
 	"font-size-7xl": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "4.5rem"
 	},
 	"font-size-8xl": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "6rem"
 	},
 	"font-size-9xl": {
-		"$type": "dimension",
+		"$type": "fontSizes",
 		"$value": "8rem"
 	},
 	"font-weight-thin": {
-		"$type": "fontWeight",
+		"$type": "fontWeights",
 		"$value": "100"
 	},
 	"font-weight-extralight": {
-		"$type": "fontWeight",
+		"$type": "fontWeights",
 		"$value": "200"
 	},
 	"font-weight-light": {
-		"$type": "fontWeight",
+		"$type": "fontWeights",
 		"$value": "300"
 	},
 	"font-weight-normal": {
-		"$type": "fontWeight",
+		"$type": "fontWeights",
 		"$value": "400"
 	},
 	"font-weight-medium": {
-		"$type": "fontWeight",
+		"$type": "fontWeights",
 		"$value": "500"
 	},
 	"font-weight-semibold": {
-		"$type": "fontWeight",
+		"$type": "fontWeights",
 		"$value": "600"
 	},
 	"font-weight-bold": {
-		"$type": "fontWeight",
+		"$type": "fontWeights",
 		"$value": "700"
 	},
 	"font-weight-extrabold": {
-		"$type": "fontWeight",
+		"$type": "fontWeights",
 		"$value": "800"
 	},
 	"font-weight-black": {
-		"$type": "fontWeight",
+		"$type": "fontWeights",
 		"$value": "900"
 	},
 	"letter-spacing-tighter": {
-		"$type": "dimension",
+		"$type": "letterSpacing",
 		"$value": "-0.05em"
 	},
 	"letter-spacing-tight": {
-		"$type": "dimension",
+		"$type": "letterSpacing",
 		"$value": "-0.025em"
 	},
 	"letter-spacing-normal": {
-		"$type": "dimension",
+		"$type": "letterSpacing",
 		"$value": "0em"
 	},
 	"letter-spacing-wide": {
-		"$type": "dimension",
+		"$type": "letterSpacing",
 		"$value": "0.025em"
 	},
 	"letter-spacing-wider": {
-		"$type": "dimension",
+		"$type": "letterSpacing",
 		"$value": "0.05em"
 	},
 	"letter-spacing-widest": {
-		"$type": "dimension",
+		"$type": "letterSpacing",
 		"$value": "0.1em"
 	},
 	"line-height-none": {
-		"$type": "lineHeight",
+		"$type": "lineHeights",
 		"$value": "1"
 	},
 	"line-height-tight": {
-		"$type": "lineHeight",
+		"$type": "lineHeights",
 		"$value": "1.25"
 	},
 	"line-height-snug": {
-		"$type": "lineHeight",
+		"$type": "lineHeights",
 		"$value": "1.375"
 	},
 	"line-height-normal": {
-		"$type": "lineHeight",
+		"$type": "lineHeights",
 		"$value": "1.5"
 	},
 	"line-height-relaxed": {
-		"$type": "lineHeight",
+		"$type": "lineHeights",
 		"$value": "1.625"
 	},
 	"line-height-loose": {
-		"$type": "lineHeight",
+		"$type": "lineHeights",
 		"$value": "2"
 	},
 	"line-height-3": {
-		"$type": "dimension",
+		"$type": "lineHeights",
 		"$value": "0.75rem"
 	},
 	"line-height-4": {
-		"$type": "dimension",
+		"$type": "lineHeights",
 		"$value": "1rem"
 	},
 	"line-height-5": {
-		"$type": "dimension",
+		"$type": "lineHeights",
 		"$value": "1.25rem"
 	},
 	"line-height-6": {
-		"$type": "dimension",
+		"$type": "lineHeights",
 		"$value": "1.5rem"
 	},
 	"line-height-7": {
-		"$type": "dimension",
+		"$type": "lineHeights",
 		"$value": "1.75rem"
 	},
 	"line-height-8": {
-		"$type": "dimension",
+		"$type": "lineHeights",
 		"$value": "2rem"
 	},
 	"line-height-9": {
-		"$type": "dimension",
+		"$type": "lineHeights",
 		"$value": "2.25rem"
 	},
 	"line-height-10": {
-		"$type": "dimension",
+		"$type": "lineHeights",
 		"$value": "2.5rem"
 	}
 }

@@ -1,22 +1,22 @@
 {
 	"background": {
 		"$type": "color",
-		"$value": "{surface.page-dark}",
+		"$value": "{surface.secondary-dark}",
 		"$description": "Default page background"
 	},
 	"foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-dark}",
+		"$value": "{on-surface.primary-dark}",
 		"$description": "Default foreground/text color"
 	},
 	"card": {
 		"$type": "color",
-		"$value": "{surface.card-dark}",
+		"$value": "{surface.primary-dark}",
 		"$description": "Card background"
 	},
 	"card-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-dark}",
+		"$value": "{on-surface.primary-dark}",
 		"$description": "Card foreground/text color"
 	},
 	"popover": {
@@ -26,7 +26,7 @@
 	},
 	"popover-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-dark}",
+		"$value": "{on-surface.primary-dark}",
 		"$description": "Popover foreground/text color"
 	},
 	"primary": {
@@ -36,7 +36,7 @@
 	},
 	"primary-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.inverse-dark}",
+		"$value": "{on-surface.inverse-dark}",
 		"$description": "Text on primary color"
 	},
 	"secondary": {
@@ -46,62 +46,62 @@
 	},
 	"secondary-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-dark}",
+		"$value": "{on-surface.primary-dark}",
 		"$description": "Text on secondary color"
 	},
 	"muted": {
 		"$type": "color",
-		"$value": "{surface.subtle-dark}",
+		"$value": "{surface.muted-dark}",
 		"$description": "Muted background"
 	},
 	"muted-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.secondary-dark}",
+		"$value": "{on-surface.secondary-dark}",
 		"$description": "Muted text color"
 	},
 	"accent": {
 		"$type": "color",
-		"$value": "{interactive.secondary-dark}",
-		"$description": "Accent background for hover states"
+		"$value": "{brand.cyan.primary-dark}",
+		"$description": "Accent background color"
 	},
 	"accent-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-dark}",
+		"$value": "{brand.on-cyan.primary-dark}",
 		"$description": "Text on accent background"
 	},
 	"destructive": {
 		"$type": "color",
-		"$value": "{feedback.error}",
+		"$value": "{feedback.error.primary-dark}",
 		"$description": "Destructive action color"
 	},
 	"destructive-foreground": {
 		"$type": "color",
-		"$value": "{feedback.error-onError-dark}",
+		"$value": "{feedback.on-error.primary-dark}",
 		"$description": "Text on destructive color"
 	},
 	"border": {
 		"$type": "color",
-		"$value": "{border.default-dark}",
+		"$value": "{border.primary-dark}",
 		"$description": "Default border color"
 	},
 	"input": {
 		"$type": "color",
-		"$value": "{border.default-dark}",
+		"$value": "{border.primary-dark}",
 		"$description": "Input border color"
 	},
 	"ring": {
 		"$type": "color",
-		"$value": "{focus.ring-dark}",
+		"$value": "{focus.primary-dark}",
 		"$description": "Focus ring color"
 	},
 	"sidebar": {
 		"$type": "color",
-		"$value": "{surface.card-dark}",
+		"$value": "{surface.primary-dark}",
 		"$description": "Sidebar background"
 	},
 	"sidebar-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-dark}",
+		"$value": "{on-surface.primary-dark}",
 		"$description": "Sidebar text color"
 	},
 	"sidebar-primary": {
@@ -111,27 +111,27 @@
 	},
 	"sidebar-primary-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.inverse-dark}",
+		"$value": "{on-surface.inverse-dark}",
 		"$description": "Text on sidebar primary"
 	},
 	"sidebar-accent": {
 		"$type": "color",
-		"$value": "{interactive.secondary-dark}",
+		"$value": "{surface.muted-dark}",
 		"$description": "Sidebar accent background"
 	},
 	"sidebar-accent-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-dark}",
+		"$value": "{on-surface.primary-dark}",
 		"$description": "Text on sidebar accent"
 	},
 	"sidebar-border": {
 		"$type": "color",
-		"$value": "{border.default-dark}",
+		"$value": "{border.secondary-dark}",
 		"$description": "Sidebar border color"
 	},
 	"sidebar-ring": {
 		"$type": "color",
-		"$value": "{focus.ring-dark}",
+		"$value": "{focus.primary-dark}",
 		"$description": "Sidebar focus ring"
 	}
 }

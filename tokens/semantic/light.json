@@ -1,22 +1,22 @@
 {
 	"background": {
 		"$type": "color",
-		"$value": "{surface.page-light}",
+		"$value": "{surface.secondary-light}",
 		"$description": "Default page background"
 	},
 	"foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-light}",
+		"$value": "{on-surface.primary-light}",
 		"$description": "Default foreground/text color"
 	},
 	"card": {
 		"$type": "color",
-		"$value": "{surface.card-light}",
+		"$value": "{surface.primary-light}",
 		"$description": "Card background"
 	},
 	"card-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-light}",
+		"$value": "{on-surface.primary-light}",
 		"$description": "Card foreground/text color"
 	},
 	"popover": {
@@ -26,7 +26,7 @@
 	},
 	"popover-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-light}",
+		"$value": "{on-surface.primary-light}",
 		"$description": "Popover foreground/text color"
 	},
 	"primary": {
@@ -36,7 +36,7 @@
 	},
 	"primary-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.inverse-light}",
+		"$value": "{on-surface.inverse-light}",
 		"$description": "Text on primary color"
 	},
 	"secondary": {
@@ -46,62 +46,62 @@
 	},
 	"secondary-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-light}",
+		"$value": "{on-surface.primary-light}",
 		"$description": "Text on secondary color"
 	},
 	"muted": {
 		"$type": "color",
-		"$value": "{surface.subtle-light}",
+		"$value": "{surface.muted-light}",
 		"$description": "Muted background"
 	},
 	"muted-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.secondary-light}",
+		"$value": "{on-surface.secondary-light}",
 		"$description": "Muted text color"
 	},
 	"accent": {
 		"$type": "color",
-		"$value": "{brand.secondary}",
-		"$description": "Accent background for hover states"
+		"$value": "{brand.yellow.primary-light}",
+		"$description": "Accent background color"
 	},
 	"accent-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-light}",
+		"$value": "{brand.on-yellow.primary-light}",
 		"$description": "Text on accent background"
 	},
 	"destructive": {
 		"$type": "color",
-		"$value": "{feedback.error}",
+		"$value": "{feedback.error.primary-light}",
 		"$description": "Destructive action color"
 	},
 	"destructive-foreground": {
 		"$type": "color",
-		"$value": "{feedback.error-onError-light}",
+		"$value": "{feedback.on-error.primary-light}",
 		"$description": "Text on destructive color"
 	},
 	"border": {
 		"$type": "color",
-		"$value": "{border.default-light}",
+		"$value": "{border.primary-light}",
 		"$description": "Default border color"
 	},
 	"input": {
 		"$type": "color",
-		"$value": "{border.default-light}",
+		"$value": "{border.primary-light}",
 		"$description": "Input border color"
 	},
 	"ring": {
 		"$type": "color",
-		"$value": "{focus.ring-light}",
+		"$value": "{focus.primary-light}",
 		"$description": "Focus ring color"
 	},
 	"sidebar": {
 		"$type": "color",
-		"$value": "{surface.page-light}",
+		"$value": "{surface.primary-light}",
 		"$description": "Sidebar background"
 	},
 	"sidebar-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-light}",
+		"$value": "{on-surface.primary-light}",
 		"$description": "Sidebar text color"
 	},
 	"sidebar-primary": {
@@ -111,27 +111,27 @@
 	},
 	"sidebar-primary-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.inverse-light}",
+		"$value": "{on-surface.inverse-light}",
 		"$description": "Text on sidebar primary"
 	},
 	"sidebar-accent": {
 		"$type": "color",
-		"$value": "{surface.card-light}",
+		"$value": "{surface.muted-light}",
 		"$description": "Sidebar accent background"
 	},
 	"sidebar-accent-foreground": {
 		"$type": "color",
-		"$value": "{onSurface.primary-light}",
+		"$value": "{on-surface.primary-light}",
 		"$description": "Text on sidebar accent"
 	},
 	"sidebar-border": {
 		"$type": "color",
-		"$value": "{border.default-light}",
+		"$value": "{border.secondary-light}",
 		"$description": "Sidebar border color"
 	},
 	"sidebar-ring": {
 		"$type": "color",
-		"$value": "{focus.ring-light}",
+		"$value": "{focus.primary-light}",
 		"$description": "Sidebar focus ring"
 	}
 }
